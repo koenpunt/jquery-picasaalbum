@@ -7,10 +7,6 @@
  * Version: 0.1 (30/12/2010)
  * Build on v1.4 but may work on older jQuery releases 
  *
- * Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
- *
  */
 
 
