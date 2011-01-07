@@ -7,6 +7,9 @@
  * Version: 0.1 (30/12/2010)
  * Build on v1.4 but may work on older jQuery releases 
  *
+ * Licensed under Creative Commons:
+ *   http://creativecommons.org/licenses/by-sa/3.0/
+ *
  */
 
 
