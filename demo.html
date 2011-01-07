@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>jQuery Picasa Album</title>
+	
+	<link rel="stylesheet" href="stylesheets/jquery.picasaalbum.css" type="text/css" media="screen" charset="utf-8"/>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/jquery.picasaalbum.js" type="text/javascript" charset="utf-8"></script>
+	
+	<style type="text/css" media="screen">
+		#picasa{
+			width: 800px;
+		}
+	</style>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(function(){
+			$('#picasa').picasaAlbum({
+				username: 'ghc.album'
+			});
+		});
+	</script>
+</head>
+
+<body>
+	
+	<h1>jQuery Picasa Album</h1>
+	<div id="picasa">
+		
+	</div>
+</body>
+</html>

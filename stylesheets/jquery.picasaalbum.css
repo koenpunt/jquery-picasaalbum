@@ -1,0 +1,79 @@
+.picasaAlbumWrap{
+}
+
+.picasaAlbumWrap .picasaAlbumList{
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: 178px;
+}
+
+.picasaAlbumWrap .picasaAlbumList ul{
+	width: 0px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.picasaAlbumWrap .picasaAlbumList ul li{
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+
+.picasaAlbumWrap .picasaAlbumList ul li .picasaAlbumTitle{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	background: #FFF;
+	width: 150px;
+	padding: 5px;
+}
+
+.picasaAlbumWrap .picasaPhotoView{
+	display: block;
+	overflow: hidden;
+	min-height: 10px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.picasaAlbumWrap .picasaThumbnailList{
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: 100px;
+}
+
+.picasaAlbumWrap .picasaThumbnailList ul{
+	width: 0px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.picasaAlbumWrap .picasaThumbnailList ul li{
+	cursor: pointer;
+	margin-right: 3px;
+	border: 1px solid #CCC;
+	width: 82px;
+	height: 82px;
+	float: left;
+	text-align: center;
+	line-height: 82px;
+	position: relative;
+}
+
+.picasaAlbumWrap .picasaThumbnailList ul li:hover{
+	background: #EEE;
+}
+
+.picasaAlbumWrap .picasaThumbnailList ul li img{
+	position: absolute;
+	top: 41px;
+	left: 41px;
+}
+
+
+.picasaAlbumWrap .picasaAlbum.progress{
+	background: url(../images/throbber.gif) no-repeat center center;
+}
