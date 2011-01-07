@@ -1,3 +1,3 @@
 h2. Picasa Album - jQuery Plugin
 
-More info: http://www.koenpunt.nl/projects/jquery-picasaalbum
+More info: "http://www.koenpunt.nl/projects/jquery-picasaalbum":http://www.koenpunt.nl/projects/jquery-picasaalbum
