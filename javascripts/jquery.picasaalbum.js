@@ -93,7 +93,6 @@
 			
 			for (var i = 0; i < entries.length; ++i) {
 				entry = entries[i];
-				console.log(entry);
 				thumbnail = entry.media$group.media$thumbnail[0];
 				type = thumbnail.type;
 				title = entry.title.$t;
